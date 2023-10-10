@@ -1,9 +1,9 @@
 <script setup>
 import { provide, ref, watch } from 'vue';
 import CardData from './components/CardData.vue';
-
 const update = ref();
 provide('update', update);
+
 watch(update, () => {
     console.log("update ", update);
 })
@@ -30,7 +30,6 @@ watch(update, () => {
     transform: translateY(-50%);
     right: 0;
 }
-
 </style>
 
 

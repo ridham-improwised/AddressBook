@@ -15,12 +15,15 @@ provide('check', check) ;
 watch(check, () => {
    getAddress() ;
 })
+
 const update = inject('update')
 watch(update, () => {
     console.log("update", update);
 })
+
 const serverRes = ref(null) ;
 provide('serverRes', serverRes)
+
 async function deleteData(id) {
     const { response } = await deleteAddress(id);
     serverRes.value = response.config.method ;

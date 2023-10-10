@@ -8,14 +8,14 @@ export default function useAddress() {
 
     
     const getAddress = async() => {
-        console.log('received call');
+        // console.log('received call');
         addresses.value = null ;
         error.value = null ;
 
         try {
             const response = await axios(unref(url)) ;
             addresses.value = response.data ;
-            console.log('got data');
+            // console.log('got data');
         } catch (err) {
             error.value = err ;
             console.log(err);
