@@ -1,0 +1,43 @@
+{
+  "addresses": [
+    {
+      "firstName": "Ridham",
+      "lastName": "Rathod",
+      "street1": "Royal Residency",
+      "street2": "Near Somani Hospital",
+      "city": "Barshi",
+      "pincode": 413411,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Virat",
+      "lastName": "Kohli",
+      "street1": "Royal Residency",
+      "street2": "Near Somani Hospital",
+      "city": "Mumbai",
+      "phoneNo": 1234567890,
+      "pincode": 413411
+    },
+    {
+      "id": 3,
+      "firstName": "Shubhman",
+      "lastName": "Gill",
+      "street1": "Royal Residency",
+      "street2": "Near Somani Hospital",
+      "city": "Delhi",
+      "phoneNo": 9876543210,
+      "pincode": 413411
+    },
+    {
+      "id": 4,
+      "firstName": "MS",
+      "lastName": "Dhoni",
+      "street1": "Royal Residency",
+      "street2": "Near Somani Hospital",
+      "city": "Ranchi",
+      "phoneNo": 9876543210,
+      "pincode": 413411
+    }
+  ]
+}
